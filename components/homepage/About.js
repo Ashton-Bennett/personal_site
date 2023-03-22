@@ -3,7 +3,7 @@ import Image from "next/image";
 import headshot from "../../public/images/headshot_nobk_edit.png";
 import ScrollingArrow from "./ScrollingArrow";
 import downArrow from "../../public/icons/south_FILL0_wght200_GRAD0_opsz48.png";
-import ParticleBackground from "components/ParticleBackGround";
+import ParticleBackGround from "components/ParticleBackGround";
 import { forwardRef } from "react";
 
 const About = forwardRef(function About(props, ref) {
@@ -32,7 +32,7 @@ const About = forwardRef(function About(props, ref) {
         </div>
       </aside>
       <div className="headshotWrapper relative fade-in-fwd-moreDelay">
-        <ParticleBackground windowWidth={props.windowWidth} />
+        <ParticleBackGround windowWidth={props.windowWidth} />
         <Image
           id="headshot"
           className="imageStyle widthEighty absolute "

@@ -8,7 +8,6 @@ import Contact from "components/homepage/Contact";
 import LoadingPage from "components/LoadingPage";
 import { useState, useEffect, useRef } from "react";
 import NavOnLargeScreen from "components/header/NavOnLargeScreen";
-import NavSmallScreen from "../../components/NavNew/NavSmallScreen";
 import { useInView } from "react-intersection-observer";
 
 export default function Home() {
