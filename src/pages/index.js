@@ -92,8 +92,8 @@ export default function Home() {
 
   return (
     <div id="appWrapper" className="column scrollWrap">
+      {loading && <LoadingPage onLoad={loadTimer()} />}
       <div className="maxWidth">
-        {loading && <LoadingPage onLoad={loadTimer()} />}
         {!loading && (
           <>
             <Head>

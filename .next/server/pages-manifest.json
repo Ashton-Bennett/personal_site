@@ -1,15 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/blogs/CSSGeneralSibling": "pages/blogs/CSSGeneralSibling.html",
-  "/blogs/ReactUseContext": "pages/blogs/ReactUseContext.html",
-  "/blogs/optionalChainingBlogPost": "pages/blogs/optionalChainingBlogPost.html",
-  "/blogs/useFieldBlogPost": "pages/blogs/useFieldBlogPost.html",
-  "/blogsPage": "pages/blogsPage.html",
-  "/": "pages/index.html",
-  "/projects/ampGuitarPage": "pages/projects/ampGuitarPage.html",
-  "/projects/blogAppPage": "pages/projects/blogAppPage.html",
-  "/projectsPage": "pages/projectsPage.html",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js"
 }

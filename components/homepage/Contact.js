@@ -16,11 +16,7 @@ const Contact = forwardRef(function Contact({ fadeOutStyle }, ref) {
   const { initialForAnimation, animateForAnimation } =
     fadeoutanimations(fadeOutStyle);
   return (
-    <section
-      ref={ref}
-      id="contact"
-      className="column addHeight scrollSnap backgroundGradient"
-    >
+    <section ref={ref} id="contact" className="column addHeight scrollSnap ">
       <Image
         className="imageStyle"
         priority

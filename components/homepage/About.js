@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import headshot from "../../public/images/headshot_nobk_edit.png";
+import headshot from "../../public/images/no_bk.png";
 import ScrollingArrow from "./ScrollingArrow";
 import downArrow from "../../public/icons/south_FILL0_wght200_GRAD0_opsz48.png";
 import ParticleBackground from "../ParticleBackground";
@@ -8,11 +8,7 @@ import { forwardRef } from "react";
 
 const About = forwardRef(function About(props, ref) {
   return (
-    <main
-      ref={ref}
-      id="about"
-      className="column addHeight scrollSnap backgroundGradient"
-    >
+    <main ref={ref} id="about" className="column addHeight scrollSnap">
       <aside
         id="mainSectionAside"
         className="column removeCenter textSectionLargeScreen"

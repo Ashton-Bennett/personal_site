@@ -16,25 +16,6 @@ body {
   height: -webkit-fill-available;
   position: relative;
 }
-.backgroundGradient {
-  background-image: linear-gradient(
-    135deg,
-    hsl(0deg 0% 0%) 0%,
-    hsl(130deg 0% 4%) 5%,
-    hsl(130deg 0% 7%) 12%,
-    hsl(132deg 0% 10%) 20%,
-    hsl(135deg 0% 12%) 30%,
-    hsl(136deg 0% 14%) 45%,
-    hsl(137deg 0% 17%) 66%,
-    hsl(14deg 2% 22%) 81%,
-    hsl(14deg 5% 32%) 89%,
-    hsl(15deg 7% 41%) 93%,
-    hsl(15deg 8% 52%) 96%,
-    hsl(15deg 14% 62%) 98%,
-    hsl(15deg 25% 73%) 99%,
-    hsl(15deg 51% 84%) 100%
-  );
-}
 
 #fontSizeOne {
   font-size: 1rem;
@@ -299,6 +280,26 @@ footer {
 
 .fullWidth {
   width: 100vw;
+}
+
+.backgroundGradient {
+  background-image: linear-gradient(
+    135deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(130deg 0% 4%) 5%,
+    hsl(130deg 0% 7%) 12%,
+    hsl(132deg 0% 10%) 20%,
+    hsl(135deg 0% 12%) 30%,
+    hsl(136deg 0% 14%) 45%,
+    hsl(137deg 0% 17%) 66%,
+    hsl(14deg 2% 22%) 81%,
+    hsl(14deg 5% 32%) 89%,
+    hsl(15deg 7% 41%) 93%,
+    hsl(15deg 8% 52%) 96%,
+    hsl(15deg 14% 62%) 98%,
+    hsl(15deg 25% 73%) 99%,
+    hsl(15deg 51% 84%) 100%
+  );
 }
 
 /* ------> Item Specific Classes  <--------- */
@@ -785,6 +786,27 @@ a > label:target-within {
   justify-content: space-between;
   padding-top: 10rem;
 }
+
+#about,
+#contact {
+  background-image: linear-gradient(
+    135deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(130deg 0% 4%) 5%,
+    hsl(130deg 0% 7%) 12%,
+    hsl(132deg 0% 10%) 20%,
+    hsl(135deg 0% 12%) 30%,
+    hsl(136deg 0% 14%) 45%,
+    hsl(137deg 0% 17%) 66%,
+    hsl(14deg 2% 22%) 81%,
+    hsl(14deg 5% 32%) 89%,
+    hsl(15deg 7% 41%) 93%,
+    hsl(15deg 8% 52%) 96%,
+    hsl(15deg 14% 62%) 98%,
+    hsl(15deg 25% 73%) 99%,
+    hsl(15deg 51% 84%) 100%
+  );
+}
 #header {
   position: absolute;
   width: 100vw;
@@ -992,6 +1014,7 @@ a > label:target-within {
   .showNav {
     left: auto;
   }
+
   #increaseWidth {
     width: 1300px;
   }
@@ -1000,16 +1023,50 @@ a > label:target-within {
     flex-direction: column;
     align-items: center;
   }
-}
+  #about,
+  #contact {
+    background-image: inherit;
+  }
 
-/* @media screen and (min-width: 1500px) {
   body {
-    background: linear-gradient(
-      to right,
-      black 0%,
-      black 55%,
-      #2e2e2e 55%,
-      #2e2e2e 100%
+    background-image: linear-gradient(
+      135deg,
+      hsl(0deg 0% 0%) 0%,
+      hsl(130deg 0% 4%) 5%,
+      hsl(130deg 0% 7%) 12%,
+      hsl(132deg 0% 10%) 20%,
+      hsl(135deg 0% 12%) 30%,
+      hsl(136deg 0% 14%) 45%,
+      hsl(137deg 0% 17%) 66%,
+      hsl(14deg 2% 22%) 81%,
+      hsl(14deg 5% 32%) 89%,
+      hsl(15deg 7% 41%) 93%,
+      hsl(15deg 8% 52%) 96%,
+      hsl(15deg 14% 62%) 98%,
+      hsl(15deg 25% 73%) 99%,
+      hsl(15deg 51% 84%) 100%
     );
   }
-} */
+}
+
+@media screen and (min-width: 1500px) {
+  body {
+    background-image: linear-gradient(
+      135deg,
+      hsl(0deg 0% 0%) 0%,
+      hsl(130deg 0% 4%) 5%,
+      hsl(130deg 0% 7%) 12%,
+      hsl(132deg 0% 10%) 20%,
+      hsl(135deg 0% 12%) 30%,
+      hsl(136deg 0% 14%) 45%,
+      hsl(137deg 0% 17%) 66%,
+      hsl(14deg 2% 22%) 81%,
+      hsl(14deg 5% 32%) 89%,
+      hsl(15deg 7% 41%) 93%,
+      hsl(15deg 8% 52%) 96%,
+      hsl(15deg 14% 62%) 98%,
+      hsl(15deg 25% 73%) 99%,
+      hsl(15deg 51% 84%) 100%
+    );
+  }
+}
