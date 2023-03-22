@@ -3,7 +3,7 @@ import Image from "next/image";
 import headshot from "../../public/images/headshot_nobk_edit.png";
 import ScrollingArrow from "./ScrollingArrow";
 import downArrow from "../../public/icons/south_FILL0_wght200_GRAD0_opsz48.png";
-import ParticleBackGround from "components/ParticleBackGround";
+import ParticleBackGround from "../ParticleBackGround";
 import { forwardRef } from "react";
 
 const About = forwardRef(function About(props, ref) {
