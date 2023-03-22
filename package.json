@@ -1,0 +1,25 @@
+{
+  "name": "ashton_bennett_site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^13.1.6",
+    "animate.css": "^4.1.1",
+    "debounce": "^1.2.1",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "framer-motion": "^10.1.0",
+    "next": "13.1.6",
+    "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.4.3",
+    "react-particles": "^2.9.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "tsparticles": "^2.9.3"
+  }
+}
