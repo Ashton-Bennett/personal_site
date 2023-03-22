@@ -4,7 +4,7 @@ import burgerBoy from "../../public/icons/burgerboy.png";
 import { useState } from "react";
 import cancelIcon from "../../public/icons/cancel.png";
 import NavMenu from "./NavMenu";
-
+import Link from "next/link";
 export default function Header({
   displayHamburgerNav,
   setDisplayHamburgerNav,
@@ -38,7 +38,11 @@ export default function Header({
       <header id="header" className="row header spaceBetween ">
         {!displayNavMenu && (
           <>
-            <a href="/#about" className="row" onClick={() => handleLogoClick()}>
+            <Link
+              href="/#about"
+              className="row"
+              onClick={() => handleLogoClick()}
+            >
               <Image
                 priority
                 src={iconImage}
@@ -52,7 +56,7 @@ export default function Header({
               >
                 shton Bennett
               </div>
-            </a>
+            </Link>
             {displayHamburgerNav && (
               <Image
                 id="hamburgerIcon"

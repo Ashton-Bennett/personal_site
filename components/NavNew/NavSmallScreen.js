@@ -1,4 +1,4 @@
-// import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react";
+import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react";
 import Image from "next/image.js";
 import iconImage from "../../public/icons/AshtonBennett_minimalistic_logo.ico-removebg-preview.png";
 export default function NavSmallScreen() {
