@@ -3,6 +3,7 @@ import Image from "next/image";
 import blogAppImage from "../../public/images/blog_app.png";
 import { motion } from "framer-motion";
 import LangIconsForBlogs from "./LangIconsForBlogs";
+
 export default function ProjectCardBlogs() {
   return (
     <Link href="/projects/blogAppPage">

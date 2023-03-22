@@ -3,6 +3,7 @@ import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 
 export default function ParticleBackGround({ windowWidth }) {
+  //required by the library
   const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
   }, []);
