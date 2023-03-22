@@ -128,7 +128,7 @@ export default function ReactUseContext() {
             not use Context. Now that we have the provider set up its time to
             import the value of user into our GrandChildComponent. By using the
             useContext() hook we are able to grab the value and set it to a
-            local variable name. In our case it's set to user.
+            local variable name. In our case it&apos;s set to user.
           </p>
         </section>
         <SyntaxHighlighter language="javascript">
@@ -137,7 +137,7 @@ export default function ReactUseContext() {
         <section className="addXPadding column">
           <h2 className="marginTop">Summary</h2>
           <p>
-            It's important to understand that the outermost component (the
+            It&apos;s important to understand that the outermost component (the
             provider) declares and sets the desired shared state. That state can
             be shared to any child/nested component of the provider directly,
             without passing it through multiple layers of the component tree.
