@@ -40,8 +40,8 @@ const Contact = forwardRef(function Contact({ fadeOutStyle }, ref) {
         </div>
         <motion.p className="widthEighty" variants={textFade}>
           <i>
-            "The star that shines the brightest is not the one that shines
-            alone, but the one that shines among others." -Unknown
+            &apos;The star that shines the brightest is not the one that shines
+            alone, but the one that shines among others.&apos; -Unknown
           </i>
         </motion.p>
         <div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import headshot from "../../public/images/headshot_nobk_edit.png";
 import ScrollingArrow from "./ScrollingArrow";
@@ -20,10 +21,10 @@ const About = forwardRef(function About(props, ref) {
           Welcome!
         </h1>
         <p className="widthEighty fade-in-fwd">
-          My name is Ashton Bennett. I'm a front-end developer who loves
+          My name is Ashton Bennett. I&apos;m a front-end developer who loves
           creating user-friendly and pixel perfect{" "}
-          <span className="tanColor textShadow">web</span> applications. Don't
-          believe me? Take a look around.
+          <span className="tanColor textShadow">web</span> applications.
+          Don&apos;t believe me? Take a look around.
         </p>
         <div className=" row widthEighty spaceBetween fade-in-fwd">
           <p></p>

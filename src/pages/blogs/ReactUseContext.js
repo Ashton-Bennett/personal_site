@@ -67,7 +67,7 @@ export default function ReactUseContext() {
         </div>
 
         <section className="addXPadding column removeCenter maxWidthEightHun">
-          <h1>React's useContext hook</h1>
+          <h1>React&apos;s useContext hook</h1>
           <p>
             <strong>What: &nbsp;</strong>A tool used to help manage state.
           </p>
@@ -76,12 +76,12 @@ export default function ReactUseContext() {
             components.
           </p>
           <p>
-            <strong>Where: &nbsp;</strong>It’s ok for said state to be
+            <strong>Where: &nbsp;</strong>It&apos;s ok for said state to be
             re-rendered without having a large hit on performance.
           </p>
           <p>
             <strong>Why: &nbsp;</strong>To avoid prop drilling / sending props
-            to components that don’t use them directly.
+            to components that don&apos;t use them directly.
           </p>
           <p>
             <strong>How: &nbsp;</strong>Wrap the parent component with a
@@ -92,8 +92,8 @@ export default function ReactUseContext() {
             simple cases it can be used to replace state managing tools like
             Redux, and GraphQL. Before going that route, I would recommend
             considering how many different places your shared states will be
-            re-rendered with every update. If it’s a large amount it could slow
-            your app's performance.
+            re-rendered with every update. If it&apos;s a large amount it could
+            slow your app&apos;s performance.
           </p>
           <h2>Syntax</h2> <br></br>
         </section>

@@ -54,9 +54,9 @@ const Projects = forwardRef(function Projects(
           {" "}
           I take pride in delivering high-quality work that meets the needs of
           my clients and their users. Take a look at my portfolio to see some of
-          my recent projects and get a sense of my style. I'm always excited to
-          collaborate on new and exciting projects, so if you're interested in
-          working with me, don't hesitate to reach out.
+          my recent projects and get a sense of my style. I&apos;m always
+          excited to collaborate on new and exciting projects, so if you&apos;re
+          interested in working with me, don&apos;t hesitate to reach out.
         </motion.p>
         <Link
           href="/projectsPage"

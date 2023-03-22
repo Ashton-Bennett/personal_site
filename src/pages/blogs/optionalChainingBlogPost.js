@@ -118,7 +118,7 @@ export default function optionalChainingBlogPost() {
             may or may not be defined.
           </p>
           <p>
-            <strong>Where: &nbsp;</strong>It's better to return undefined
+            <strong>Where: &nbsp;</strong>It&apos;s better to return undefined
             instead of throwing an error.
           </p>
           <p>
@@ -135,8 +135,8 @@ export default function optionalChainingBlogPost() {
               <strong>&nbsp;.&nbsp;</strong>
             </span>
             &nbsp; operator, but when a value is null or undefined it returns
-            undefined rather than throwing an error. It’s a defensive way of
-            coding to reduce potential errors. Best used when unsure of the
+            undefined rather than throwing an error. It&apos;s a defensive way
+            of coding to reduce potential errors. Best used when unsure of the
             potential values/properties of a nested object (ex: calling to an
             api).
           </p>
@@ -214,7 +214,7 @@ export default function optionalChainingBlogPost() {
             >
               (See more here.)
             </Link>{" "}
-            It's still worth checking out.
+            It&apos;s still worth checking out.
           </p>
           <Link className="row marginBottom opacityHalf" href="/blogsPage">
             <Image

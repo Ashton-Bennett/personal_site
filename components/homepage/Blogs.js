@@ -35,9 +35,9 @@ const Blogs = forwardRef(function Blogs(
           <motion.h1 variants={textFade}>Blogs</motion.h1>{" "}
         </div>
         <motion.p className="widthEighty" variants={textFade}>
-          I'm passionate about sharing my knowledge and experience with others.
-          That's why I maintain a section on technical blogs, where I write
-          about web development.
+          I&apos;m passionate about sharing my knowledge and experience with
+          others. That&apos;s why I maintain a section on technical blogs, where
+          I write about web development.
         </motion.p>
         <Link href="/blogsPage" onClick={() => setDisplayHamburgerNav(false)}>
           <motion.button

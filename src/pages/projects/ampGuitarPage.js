@@ -54,9 +54,9 @@ export default function ampGuitarPage() {
           </p>
           <p>
             A single page web application that provides tools to amplify
-            guitarists' skills. The first tool provided is a scale finder. The
-            finder feature will help the user write melodies and solos for any
-            particular section of a song. Created using music theory and
+            guitarists&apos; skills. The first tool provided is a scale finder.
+            The finder feature will help the user write melodies and solos for
+            any particular section of a song. Created using music theory and
             functional programming, it will bring hundreds of musical scale
             diagrams to the user. Give it a try&nbsp;
             <Link
@@ -71,7 +71,7 @@ export default function ampGuitarPage() {
             I always welcome constructive criticism and user feedback. To help
             streamline these ideas the app includes a contact form that once
             submitted will go to my personal email. Building upon user feedback
-            is critical for any application's success.
+            is critical for any application&apos;s success.
           </p>
           <p>
             In time I will implement more features that will help guitarists
