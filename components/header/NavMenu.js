@@ -29,17 +29,17 @@ export default function NavMenu({ toggleNavMenu, displayNavMenu }) {
               </a>
             </li>
             <li className="navItem">
-              <a href="#projects" onClick={toggleNavMenu}>
+              <a href="#about" onClick={toggleNavMenu}>
                 Projects
               </a>
             </li>
             <li className="navItem">
-              <a href="#blogs" onClick={toggleNavMenu}>
+              <a href="#projects" onClick={toggleNavMenu}>
                 Blogs
               </a>
             </li>
             <li className="navItem">
-              <a href="#story" onClick={toggleNavMenu}>
+              <a href="#blogs" onClick={toggleNavMenu}>
                 Story
               </a>
             </li>
