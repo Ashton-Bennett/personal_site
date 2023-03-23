@@ -1,27 +1,16 @@
-import { useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+
 export default function NavMenu({ toggleNavMenu, displayNavMenu }) {
-  const [show, setShow] = useState(displayNavMenu);
-
-  useEffect(() => {
-    if (displayNavMenu) {
-      setShow(true);
-    }
-  }, [displayNavMenu]);
-
-  const handleAnimation = () => {
-    if (!displayNavMenu) {
-      setShow(false);
-    }
-  };
   return (
-    show && (
-      <div
-        onAnimationEnd={handleAnimation}
-        className={`${
-          displayNavMenu ? "navMenuStyleSlideIn" : "navMenuStyleSlideOut"
-        }`}
-      >
-        <div className="navMenuStyle ">
+    <AnimatePresence>
+      {displayNavMenu && (
+        <motion.div
+          className="navMenuStyle"
+          initial={{ opacity: 0, x: 500 }}
+          transition={{ duration: 0.25 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: 500 }}
+        >
           <ul className="navList">
             <li className="navItem">
               <a href="#header" onClick={toggleNavMenu}>
@@ -54,8 +43,8 @@ export default function NavMenu({ toggleNavMenu, displayNavMenu }) {
               </a>
             </li>
           </ul>
-        </div>
-      </div>
-    )
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 }

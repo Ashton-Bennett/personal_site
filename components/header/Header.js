@@ -5,6 +5,7 @@ import { useState } from "react";
 import cancelIcon from "../../public/icons/cancel.png";
 import NavMenu from "./NavMenu";
 import Link from "next/link";
+
 export default function Header({
   displayHamburgerNav,
   setDisplayHamburgerNav,

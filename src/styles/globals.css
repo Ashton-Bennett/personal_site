@@ -314,26 +314,6 @@ footer {
   height: 8rem;
 }
 
-@keyframes nav-intro {
-  from {
-    opacity: 0;
-    transform: translateX(500px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes nav-outro {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(500px);
-  }
-}
-
 .navMenuStyle {
   height: 100vh;
   height: 100lvh;
@@ -341,14 +321,6 @@ footer {
   background-color: #202020;
   flex-direction: column;
   align-items: center;
-}
-
-.navMenuStyleSlideIn {
-  animation: nav-intro 400ms linear;
-}
-
-.navMenuStyleSlideOut {
-  animation: nav-outro 400ms linear;
 }
 
 .navList {

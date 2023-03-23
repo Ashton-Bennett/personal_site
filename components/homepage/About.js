@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import headshot from "../../public/images/no_bk.png";
 import ScrollingArrow from "./ScrollingArrow";
