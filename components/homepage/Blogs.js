@@ -14,7 +14,9 @@ const Blogs = forwardRef(function Blogs(
 ) {
   const { initialForAnimation, animateForAnimation } =
     fadeoutanimations(fadeOutStyle);
-
+  const resetScrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <section ref={ref} id="blogs" className="column addHeight scrollSnap">
       <Image
@@ -50,6 +52,7 @@ const Blogs = forwardRef(function Blogs(
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
             className="widthEighty"
             variants={textFade}
+            onClick={resetScrollToTop}
           >
             View
           </motion.button>
