@@ -191,6 +191,11 @@ footer {
   margin-bottom: 2em;
 }
 
+.addYMarginsBig {
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
 .addYMarginsSmall {
   margin-top: 1.25em;
   margin-bottom: 1em;

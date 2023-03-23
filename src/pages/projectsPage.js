@@ -13,7 +13,7 @@ export default function ProjectsPage() {
           <h1 className="addYMarginsDbl">Projects</h1>
           <ProjectCardAmpGuitar />
           <ProjectCardBlogs />
-          <Link className="row marginBottom opacityHalf" href="/">
+          <Link className="row addYMarginsBig opacityHalf" href="/">
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}

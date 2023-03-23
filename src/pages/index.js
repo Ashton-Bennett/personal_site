@@ -90,21 +90,8 @@ export default function Home() {
     fadeOut.current = sectionToFadeOut;
   }, [sectionToFadeOut]);
 
-  const handleMobileFullScreen = () => {
-    if (windowWidth >= 600) return;
-    // const elem = document.getElementById("appWrapper");
-    // if (elem.requestFullscreen) {
-    //   elem.requestFullscreen().catch((err) => {
-    //     alert(err.message, err.name);
-    //   });
-    // }
-  };
   return (
-    <div
-      id="appWrapper"
-      className="column scrollWrap"
-      onTouchStart={handleMobileFullScreen}
-    >
+    <div id="appWrapper" className="column scrollWrap">
       {loading && <LoadingPage onLoad={loadTimer()} />}
       <div className="maxWidth">
         {!loading && (
@@ -153,7 +140,6 @@ export default function Home() {
               ref={refContact}
               fadeOutStyle={fadeOut.current === "contact" ? true : false}
             />
-            {/* <footer className="column footer">©Ashton Bennett</footer> */}
           </>
         )}
       </div>

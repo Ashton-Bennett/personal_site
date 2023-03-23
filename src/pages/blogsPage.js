@@ -35,7 +35,7 @@ export default function blogsPage() {
               image={siblingPic}
             />
           </div>
-          <Link className="row addYMargins opacityHalf" href="/#about">
+          <Link className="row addYMarginsBig opacityHalf" href="/#about">
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}
