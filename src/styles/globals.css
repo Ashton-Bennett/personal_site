@@ -13,7 +13,8 @@ html,
 body {
   width: 100vw;
   scroll-behavior: smooth;
-  height: -webkit-fill-available;
+  height: 100vh;
+  min-height: -webkit-fill-available;
   position: relative;
 }
 
@@ -169,6 +170,7 @@ footer {
 
 .addHeight {
   height: 100vh;
+  min-height: -webkit-fill-available;
   height: 100svh;
 }
 
@@ -316,6 +318,7 @@ footer {
 
 .navMenuStyle {
   height: 100vh;
+  min-height: -webkit-fill-available;
   height: 100lvh;
   display: flex;
   background-color: #202020;
@@ -880,11 +883,13 @@ a > label:target-within {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
+    min-height: -webkit-fill-available;
     scroll-behavior: smooth;
   }
 
   .scrollSnap {
     scroll-snap-align: center;
+    min-height: -webkit-fill-available;
     height: 100vh;
   }
 
