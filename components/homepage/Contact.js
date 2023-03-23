@@ -131,11 +131,17 @@ const Contact = forwardRef(function Contact({ fadeOutStyle }, ref) {
                 />
               </motion.li>
             </Link>
+            <motion.li
+              whileHover={{
+                scale: 1.1,
+              }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+              variants={textFade}
+            >
+              <ScrollingArrow link={"#about"} arrow={upArrow} />
+            </motion.li>
           </motion.ul>
-          <div className=" row widthEighty spaceBetween fade-in-fwd addYMarginsBig">
-            <p></p>
-            <ScrollingArrow link={"#about"} arrow={upArrow} />
-          </div>
         </div>
       </motion.aside>
     </section>
