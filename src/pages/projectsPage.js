@@ -5,8 +5,17 @@ import backArrowIcon from "../../public/icons/iconmonstr-arrow-left-lined-240.pn
 import Link from "next/link";
 import Image from "next/image";
 export default function ProjectsPage() {
+  const resetScrollToTop = () => {
+    console.log("SCROLLER");
+    window.scrollTo(0, 0);
+  };
+
   return (
-    <div id="keepItReal" className="backgroundGradient">
+    <div
+      id="keepItReal"
+      className="backgroundGradient"
+      onLoad={resetScrollToTop}
+    >
       <div className="maxWidth">
         <Header />
         <div id="increaseWidth" className="column fadeIn ">

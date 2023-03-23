@@ -9,8 +9,16 @@ import codeImage from "../../public/images/coding-image.jpg";
 import siblingPic from "../../public/images/sibling_pic.jpg";
 
 export default function blogsPage() {
+  const resetScrollToTop = () => {
+    console.log("SCROLLER");
+    window.scrollTo(0, 0);
+  };
   return (
-    <div id="keepItReal" className="backgroundGradient">
+    <div
+      id="keepItReal"
+      className="backgroundGradient"
+      onLoad={resetScrollToTop}
+    >
       <div className="maxWidth">
         <Header />
         <div id="increaseWidth" className="column fadeIn">
