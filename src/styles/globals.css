@@ -9,6 +9,13 @@
   margin: 0;
 }
 
+html {
+  overflow: hidden;
+}
+body {
+  position: fixed;
+  overflow-y: scroll;
+}
 html,
 body {
   width: 100vw;
