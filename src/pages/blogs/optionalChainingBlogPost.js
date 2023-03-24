@@ -87,7 +87,7 @@ export default function OptionalChainingBlogPost() {
   const router = useRouter();
 
   useEffect(() => {
-    router.push(router.pathname + "#keepItReal");
+    router.push(router.pathname + "#blogStyle");
   }, []);
 
   return (

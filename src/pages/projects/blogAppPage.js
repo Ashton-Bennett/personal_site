@@ -12,7 +12,7 @@ export default function BlogAppPage() {
   const router = useRouter();
 
   useEffect(() => {
-    router.push(router.pathname + "#keepItReal");
+    router.push(router.pathname + "#blogStyle");
   }, []);
   return (
     <>

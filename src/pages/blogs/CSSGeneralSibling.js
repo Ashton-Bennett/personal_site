@@ -27,7 +27,7 @@ export default function CSSGeneralSibling() {
   const router = useRouter();
 
   useEffect(() => {
-    router.push(router.pathname + "#keepItReal");
+    router.push(router.pathname + "#blogStyle");
   }, []);
   return (
     <div className=" column ">
