@@ -10,8 +10,10 @@ import siblingPic from "../../public/images/sibling_pic.jpg";
 
 export default function blogsPage() {
   const resetScrollToTop = () => {
-    console.log("SCROLLER");
-    window.scrollTo(0, 0);
+    setTimeout(() => {
+      console.log("SCROLLER");
+      window.scrollTo(0, 0);
+    }, 200);
   };
   return (
     <div

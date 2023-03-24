@@ -4,10 +4,13 @@ import ProjectCardAmpGuitar from "components/projects/ProjectCardAmpGuitar";
 import backArrowIcon from "../../public/icons/iconmonstr-arrow-left-lined-240.png";
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect } from "react";
 export default function ProjectsPage() {
   const resetScrollToTop = () => {
-    console.log("SCROLLER");
-    window.scrollTo(0, 0);
+    setTimeout(() => {
+      console.log("SCROLLER");
+      window.scroll(0, 0);
+    }, 200);
   };
 
   return (
