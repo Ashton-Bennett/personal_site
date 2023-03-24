@@ -40,7 +40,7 @@ const Contact = forwardRef(function Contact({ fadeOutStyle }, ref) {
             alone, but the one that shines among others.&apos; -Unknown
           </i>
         </motion.p>
-        <div className="marginBottom">
+        <div className="paddingBtmLg">
           <motion.ul
             className="row socialLinks spaceBetween widthEighty addYMargins"
             variants={textFade}
