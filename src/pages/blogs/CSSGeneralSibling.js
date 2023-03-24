@@ -4,6 +4,8 @@ import siblingPic from "../../../public/images/sibling_pic.jpg";
 import Image from "next/image";
 import backArrowIcon from "../../../public/icons/iconmonstr-arrow-left-lined-240.png";
 import avatarImg from "../../../public/images/headshot_tan_bg_back11 (1).png";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 const exampleSyntaxCode = `former_element ~ target_element { style properties }`;
 const exampleCodeOne = `                    /*  CSS FILE */
@@ -22,6 +24,11 @@ const exampleCodeTwo = `<div>
 </div>`;
 
 export default function CSSGeneralSibling() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push(router.pathname + "#keepItReal");
+  }, []);
   return (
     <div className=" column ">
       <div id="blogStyle" className="blogsPage maxWidthEightHun">
@@ -124,7 +131,7 @@ export default function CSSGeneralSibling() {
               here.
             </Link>{" "}
           </p>
-          <Link className="row marginBottom opacityHalf" href="/blogsPage">
+          <Link className="row addYMarginsBig opacityHalf" href="/blogsPage">
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}

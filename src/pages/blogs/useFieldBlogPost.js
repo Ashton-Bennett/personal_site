@@ -6,6 +6,8 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import backArrowIcon from "../../../public/icons/iconmonstr-arrow-left-lined-240.png";
 import xIcon from "../../../public/icons/iconmonstr-x-mark-1-240.png";
 import checkIcon from "../../../public/icons/iconmonstr-check-mark-15-240.png";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 const exampleSyntaxCode = `const App = () => {
     const [name,setName] = useState("")
@@ -77,7 +79,13 @@ const excFive = `const clearForm = (event) => {
     birthDateHandler();
 }`;
 
-export default function useFieldBlogPost() {
+export default function UseFieldBlogPost() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push(router.pathname + "#keepItReal");
+  }, []);
+
   return (
     <div className="column">
       <div id="blogStyle" className="blogsPage  maxWidthEightHun">
@@ -258,7 +266,7 @@ export default function useFieldBlogPost() {
             </Link>{" "}
           </p>
           <div className="column">
-            <Link className="row marginBottom opacityHalf" href="/blogsPage">
+            <Link className="row addYMarginsBig opacityHalf" href="/blogsPage">
               <Image
                 className="arrowIconStyle"
                 src={backArrowIcon}

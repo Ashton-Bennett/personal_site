@@ -5,7 +5,15 @@ import backArrowIcon from "../../../public/icons/iconmonstr-arrow-left-lined-240
 import avatarImg from "../../../public/images/headshot_tan_bg_back11 (1).png";
 import blogAppImage from "../../../public/images/blog_app.png";
 import LangIconsForBlogs from "../../../components/projects/LangIconsForBlogs";
-export default function blogAppPage() {
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+
+export default function BlogAppPage() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push(router.pathname + "#keepItReal");
+  }, []);
   return (
     <>
       <div id="blogStyle" className="blogsPage column">
@@ -79,7 +87,7 @@ export default function blogAppPage() {
             />
           </Link>
 
-          <Link className="row marginBottom opacityHalf" href="/projectsPage">
+          <Link className="row addYMarginsBig opacityHalf" href="/projectsPage">
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}
@@ -91,26 +99,4 @@ export default function blogAppPage() {
       </div>
     </>
   );
-}
-
-{
-  /* 
-<h3>Built with</h3>
-<LangIconsForBlogs />
-<h3>Purpose</h3>
-<p className="cardText">
-  To allow users to share, comment, and like blogs with each other.
-</p>
-<h3>See the code</h3>
-<Link
-  href="https://github.com/Ashton-Bennett/ashton-bennett.github.io/tree/master"
-  target="_blank"
->
-  <Image
-    className="arrowIconStyle cardGithubIcon"
-    priority
-    src={gitHubIcon}
-    alt="Github icon"
-  />
-</Link> */
 }

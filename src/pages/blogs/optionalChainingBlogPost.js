@@ -4,6 +4,8 @@ import chainImage from "../../../public/images/chain_img.jpg";
 import Image from "next/image";
 import backArrowIcon from "../../../public/icons/iconmonstr-arrow-left-lined-240.png";
 import avatarImg from "../../../public/images/headshot_tan_bg_back11 (1).png";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 const exampleSyntaxCode = `  
 obj.val?.prop
@@ -81,7 +83,13 @@ McCartney's number...")
 as long as its value isn't null or undefined. In our case it is
 undefined, so the value to the right of the ?? is returned.`;
 
-export default function optionalChainingBlogPost() {
+export default function OptionalChainingBlogPost() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push(router.pathname + "#keepItReal");
+  }, []);
+
   return (
     <div className=" column ">
       <div id="blogStyle" className="blogsPage maxWidthEightHun">
@@ -216,7 +224,7 @@ export default function optionalChainingBlogPost() {
             </Link>{" "}
             It&apos;s still worth checking out.
           </p>
-          <Link className="row marginBottom opacityHalf" href="/blogsPage">
+          <Link className="row addYMarginsBig opacityHalf" href="/blogsPage">
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}

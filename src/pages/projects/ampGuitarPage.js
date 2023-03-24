@@ -5,8 +5,15 @@ import Image from "next/image";
 import ampGuitarImg from "../../../public/images/amp_guitar_img.png";
 import backArrowIcon from "../../../public/icons/iconmonstr-arrow-left-lined-240.png";
 import avatarImg from "../../../public/images/headshot_tan_bg_back11 (1).png";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
-export default function ampGuitarPage() {
+export default function AmpGuitarPage() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push(router.pathname + "#keepItReal");
+  }, []);
   return (
     <>
       <div id="blogStyle" className="blogsPage column">
@@ -94,7 +101,7 @@ export default function ampGuitarPage() {
             />
           </Link>
 
-          <Link className="row marginBottom opacityHalf" href="/projectsPage">
+          <Link className="row addYMarginsBig opacityHalf" href="/projectsPage">
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}
