@@ -7,20 +7,18 @@ import backArrowIcon from "../../public/icons/iconmonstr-arrow-left-lined-240.pn
 import BlogDisplayCard from "components/blogs/BlogDisplayCard";
 import codeImage from "../../public/images/coding-image.jpg";
 import siblingPic from "../../public/images/sibling_pic.jpg";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
-export default function blogsPage() {
-  const resetScrollToTop = () => {
-    setTimeout(() => {
-      console.log("SCROLLER");
-      window.scrollTo(0, 0);
-    }, 200);
-  };
+export default function BlogsPage() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push(router.pathname + "#keepItReal");
+  }, []);
+
   return (
-    <div
-      id="keepItReal"
-      className="backgroundGradient"
-      onLoad={resetScrollToTop}
-    >
+    <div id="keepItReal" className="backgroundGradient">
       <div className="maxWidth">
         <Header />
         <div id="increaseWidth" className="column fadeIn">

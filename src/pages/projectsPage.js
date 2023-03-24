@@ -5,20 +5,17 @@ import backArrowIcon from "../../public/icons/iconmonstr-arrow-left-lined-240.pn
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect } from "react";
+import { useRouter } from "next/router";
+
 export default function ProjectsPage() {
-  const resetScrollToTop = () => {
-    setTimeout(() => {
-      console.log("SCROLLER");
-      window.scroll(0, 0);
-    }, 200);
-  };
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push(router.pathname + "#keepItReal");
+  }, []);
 
   return (
-    <div
-      id="keepItReal"
-      className="backgroundGradient"
-      onLoad={resetScrollToTop}
-    >
+    <div id="keepItReal" className="backgroundGradient">
       <div className="maxWidth">
         <Header />
         <div id="increaseWidth" className="column fadeIn ">

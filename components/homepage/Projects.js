@@ -61,6 +61,7 @@ const Projects = forwardRef(function Projects(
         <Link
           href="/projectsPage"
           onClick={() => setDisplayHamburgerNav(false)}
+          scroll={false}
         >
           <motion.button
             whileHover={{
