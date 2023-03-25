@@ -15,9 +15,9 @@ export const textFade = {
     transition: {
       type: "tween",
       ease: "linear",
-      duration: 0.75,
-      delayChildren: 0.55,
-      staggerChildren: 0.3,
+      duration: 0.35,
+      delayChildren: 0.25,
+      staggerChildren: 0.2,
     },
   },
 };

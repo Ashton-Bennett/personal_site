@@ -20,19 +20,19 @@ export default function Home() {
 
   // observer hook to determine what section the user is on
   const [refAbout, inViewAbout, entryAbout] = useInView({
-    threshold: 0.6,
+    threshold: 0.45,
   });
   const [refProjects, inViewProjects, entryProjects] = useInView({
-    threshold: 0.6,
+    threshold: 0.45,
   });
   const [refBlogs, inViewBlogs, entryBlogs] = useInView({
-    threshold: 0.6,
+    threshold: 0.45,
   });
   const [refStory, inViewStory, entryStory] = useInView({
-    threshold: 0.6,
+    threshold: 0.45,
   });
   const [refContact, inViewContact, entryContact] = useInView({
-    threshold: 0.6,
+    threshold: 0.45,
   });
 
   // used to determine the amount particles in background on #about
