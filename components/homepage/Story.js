@@ -33,7 +33,7 @@ const Story = forwardRef(function Story({ fadeOutStyle }, ref) {
           I have spent the majority of my career as a Chef. During that time, I
           truly enjoyed creating an environment for large teams to be
           successful. Constantly building and re-evaluating numerous different
-          processes, taught me countless valuable and transferable skills. The
+          processes taught me countless valuable and transferable skills. The
           kitchen was an amazing place for me to express my creativity as well!
           Though I no longer work in food service, I still love cooking for
           family and friends.

@@ -2,5 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/blogs/useFieldBlogPost": "pages/blogs/useFieldBlogPost.js",
+  "/blogsPage": "pages/blogsPage.js",
+  "/blogs/optionalChainingBlogPost": "pages/blogs/optionalChainingBlogPost.js",
   "/": "pages/index.js"
 }

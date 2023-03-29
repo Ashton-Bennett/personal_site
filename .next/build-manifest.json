@@ -29,6 +29,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/blogs/optionalChainingBlogPost": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blogs/optionalChainingBlogPost.js"
+    ],
+    "/blogs/useFieldBlogPost": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blogs/useFieldBlogPost.js"
+    ],
+    "/blogsPage": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blogsPage.js"
     ]
   },
   "ampFirstPages": []
