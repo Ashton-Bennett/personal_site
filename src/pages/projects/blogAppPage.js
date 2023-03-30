@@ -17,7 +17,11 @@ export default function BlogAppPage() {
   return (
     <>
       <div id="blogStyle" className="blogsPage column">
-        <Link className="column" href="/undefined" target="_blank">
+        <Link
+          className="column"
+          href="https://blog-app-by-ashton.fly.dev/"
+          target="_blank"
+        >
           <Image
             className="blogImageStyle"
             priority
@@ -53,7 +57,14 @@ export default function BlogAppPage() {
           <p>
             I created this app to gain a better understanding of full stack
             development and practice using Express, Node, React, Redux, and
-            MongoDB.
+            MongoDB.{" "}
+            <Link
+              href="https://blog-app-by-ashton.fly.dev/"
+              className="tanColor opacityHalf"
+              target="_blank"
+            >
+              Try it out here.
+            </Link>
           </p>
           <p>
             Blog app will require the user to login. Once validated the user
@@ -64,8 +75,9 @@ export default function BlogAppPage() {
             that created that particular blog. If you would like to see the code
             click the link,&nbsp;
             <Link
-              href="https://ashton-bennett.github.io/"
+              href="https://github.com/Ashton-Bennett/blog_app"
               className="tanColor opacityHalf"
+              target="_blank"
             >
               here
             </Link>
@@ -75,7 +87,7 @@ export default function BlogAppPage() {
         <div className="column">
           <Link
             className="column"
-            href="https://github.com/Ashton-Bennett/fullstackopen/tree/part_7/src"
+            href="https://github.com/Ashton-Bennett/blog_app"
             target="_blank"
           >
             <h3 className="opacityHalf">See the code</h3>
