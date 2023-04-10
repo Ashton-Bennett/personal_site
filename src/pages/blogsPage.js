@@ -48,7 +48,7 @@ export default function BlogsPage() {
               header={"UseMemo Hook"}
               fileName={"useMemoBlog"}
               date={"April, 10, 2023"}
-              readTime={"2m read time"}
+              readTime={"3m read time"}
               image={computerImage}
             />
           </div>

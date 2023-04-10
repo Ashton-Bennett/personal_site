@@ -1,5 +1,5 @@
 import Image from "next/image";
-import headshot from "../../public/images/no_bk.png";
+import headshot from "../../public/images/no_bk (1).png";
 import ScrollingArrow from "./ScrollingArrow";
 import downArrow from "../../public/icons/south_FILL0_wght200_GRAD0_opsz48.png";
 import ParticleBackground from "../ParticleBackground";
