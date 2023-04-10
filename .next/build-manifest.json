@@ -25,20 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/projects/ampGuitarPage": [
+    "/blogs/useMemoBlog": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projects/ampGuitarPage.js"
-    ],
-    "/projects/blogAppPage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projects/blogAppPage.js"
-    ],
-    "/projectsPage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projectsPage.js"
+      "static/chunks/pages/blogs/useMemoBlog.js"
     ]
   },
   "ampFirstPages": []

@@ -3,21 +3,23 @@ import Link from "next/link";
 import hookImg from "../../public/images/grace-to-_vVqIVDzJ44-unsplash.jpg";
 import hourGlassIcon from "../../public/icons/hour-glass.png";
 import { motion } from "framer-motion";
+
 export default function UseFieldHook() {
   return (
-    <motion.div
-      className=" column card"
-      whileHover={{
-        scale: 1.1,
-        cursor: "pointer",
-      }}
-      whileTap={{ scale: 0.9 }}
-      transition={{ type: "spring", stiffness: 400, damping: 17 }}
-    >
-      <h2 className="whiteColor fontWeightFour addYMarginsSmall">
-        useField Custom Hook
-      </h2>
-      <Link className="column" href="/blogs/useFieldBlogPost">
+    <Link className="column" href="/blogs/useFieldBlogPost">
+      <motion.div
+        className=" column card"
+        whileHover={{
+          scale: 1.1,
+          cursor: "pointer",
+        }}
+        whileTap={{ scale: 0.9 }}
+        transition={{ type: "spring", stiffness: 400, damping: 17 }}
+      >
+        <h2 className="whiteColor fontWeightFour addYMarginsSmall">
+          useField Custom Hook
+        </h2>
+
         <Image
           className="cardImageStyle widthReducer"
           priority
@@ -35,7 +37,7 @@ export default function UseFieldHook() {
           alt="an hour glass"
         />
         <h4 className="whiteColor marginBottom">2m read time</h4>
-      </Link>
-    </motion.div>
+      </motion.div>
+    </Link>
   );
 }

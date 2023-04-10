@@ -69,6 +69,7 @@ export default function AmpGuitarPage() {
             <Link
               href="https://ashton-bennett.github.io/"
               className="tanColor opacityHalf"
+              target="_blank"
             >
               here
             </Link>

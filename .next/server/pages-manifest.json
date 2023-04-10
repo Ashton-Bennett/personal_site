@@ -1,8 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/projects/blogAppPage": "pages/projects/blogAppPage.js",
-  "/projectsPage": "pages/projectsPage.js",
-  "/projects/ampGuitarPage": "pages/projects/ampGuitarPage.js"
+  "/_error": "pages/_error.js",
+  "/blogs/useMemoBlog": "pages/blogs/useMemoBlog.js"
 }

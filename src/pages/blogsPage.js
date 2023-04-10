@@ -9,6 +9,7 @@ import codeImage from "../../public/images/coding-image.jpg";
 import siblingPic from "../../public/images/sibling_pic.jpg";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import computerImage from "../../public/images/usememo_pic.jpg";
 
 export default function BlogsPage() {
   const router = useRouter();
@@ -41,6 +42,14 @@ export default function BlogsPage() {
               date={"March, 2nd, 2023"}
               readTime={"2m read time"}
               image={siblingPic}
+            />
+
+            <BlogDisplayCard
+              header={"UseMemo Hook"}
+              fileName={"useMemoBlog"}
+              date={"April, 10, 2023"}
+              readTime={"2m read time"}
+              image={computerImage}
             />
           </div>
           <Link className="row addYMarginsBig opacityHalf" href="/#about">

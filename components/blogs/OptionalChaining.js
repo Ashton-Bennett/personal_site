@@ -5,19 +5,20 @@ import hourGlassIcon from "../../public/icons/hour-glass.png";
 import { motion } from "framer-motion";
 export default function OptionalChaining() {
   return (
-    <motion.div
-      className=" column card"
-      whileHover={{
-        scale: 1.1,
-        cursor: "pointer",
-      }}
-      whileTap={{ scale: 0.9 }}
-      transition={{ type: "spring", stiffness: 400, damping: 17 }}
-    >
-      <h2 className="whiteColor fontWeightFour addYMarginsSmall">
-        Optional Chaining
-      </h2>
-      <Link className="column" href="/blogs/optionalChainingBlogPost">
+    <Link className="column" href="/blogs/optionalChainingBlogPost">
+      <motion.div
+        className=" column card"
+        whileHover={{
+          scale: 1.1,
+          cursor: "pointer",
+        }}
+        whileTap={{ scale: 0.9 }}
+        transition={{ type: "spring", stiffness: 400, damping: 17 }}
+      >
+        <h2 className="whiteColor fontWeightFour addYMarginsSmall">
+          Optional Chaining
+        </h2>
+
         <Image
           className="cardImageStyle widthReducer"
           priority
@@ -35,7 +36,7 @@ export default function OptionalChaining() {
           alt="an hour glass"
         />
         <h4 className="whiteColor marginBottom">3m read time</h4>
-      </Link>
-    </motion.div>
+      </motion.div>
+    </Link>
   );
 }
