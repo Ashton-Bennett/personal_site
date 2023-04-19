@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/projects/ampGuitarPage": "pages/projects/ampGuitarPage.js",
+  "/projectsPage": "pages/projectsPage.js",
   "/": "pages/index.js"
 }

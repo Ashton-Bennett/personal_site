@@ -27,7 +27,7 @@ const Story = forwardRef(function Story({ fadeOutStyle }, ref) {
         transition={{ staggerChildren: 0.75 }}
       >
         <div className="row widthEighty spaceBetween">
-          <motion.h1 variants={textFade}>Story</motion.h1>{" "}
+          <motion.h1 variants={textFade}>My Story</motion.h1>{" "}
         </div>
         <motion.p className="widthEighty marginBottomOne" variants={textFade}>
           I have spent the majority of my career as a Chef. During that time, I

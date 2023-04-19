@@ -55,7 +55,7 @@ export default function NavOnLargeScreen({
       <div className="tracking-in-expand-fwdStory">
         <a href="#story" onClick={handleClick}>
           <input id="storyNav" type="radio" name="sectionNav" value="story" />
-          <label htmlFor="storyNav">Story</label>{" "}
+          <label htmlFor="storyNav">My Story</label>{" "}
         </a>
         <div className="vertical"></div>
       </div>
