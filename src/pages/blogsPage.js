@@ -10,7 +10,7 @@ import siblingPic from "../../public/images/sibling_pic.jpg";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import computerImage from "../../public/images/usememo_pic.jpg";
-
+import callbackImage from "../../public/images/callbackImage.jpg";
 export default function BlogsPage() {
   const router = useRouter();
 
@@ -50,6 +50,14 @@ export default function BlogsPage() {
               date={"April, 10, 2023"}
               readTime={"3m read time"}
               image={computerImage}
+            />
+
+            <BlogDisplayCard
+              header={"UseCallback Hook"}
+              fileName={"useCallback"}
+              date={"April, 27, 2023"}
+              readTime={"2m read time"}
+              image={callbackImage}
             />
           </div>
           <Link className="row addYMarginsBig opacityHalf" href="/#about">
