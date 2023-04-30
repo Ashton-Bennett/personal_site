@@ -105,6 +105,7 @@ export default function ReactUseContext() {
             ensure referential equality, I won&apos;t be going over that here.
             To see more use cases click
             <Link
+              title="go to react page with more details"
               className="tanColor"
               href="https://react.dev/reference/react/useMemo"
               target="_blank"
@@ -185,7 +186,11 @@ export default function ReactUseContext() {
               Github
             </Link>{" "}
           </p>
-          <Link className="row addYMarginsBig opacityHalf" href="/blogsPage">
+          <Link
+            title="go back to blog listing page"
+            className="row addYMarginsBig opacityHalf"
+            href="/blogsPage"
+          >
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}

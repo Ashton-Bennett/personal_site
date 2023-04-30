@@ -48,6 +48,7 @@ const Contact = forwardRef(function Contact({ fadeOutStyle }, ref) {
             <Link
               href={"https://www.linkedin.com/in/ashton-bennett-76876a207/"}
               target="_blank"
+              title="go to ashton's linked in page"
             >
               <motion.li
                 whileHover={{
@@ -69,7 +70,11 @@ const Contact = forwardRef(function Contact({ fadeOutStyle }, ref) {
                 />
               </motion.li>
             </Link>
-            <Link href={"https://twitter.com/AshtonDEngineer"} target="_blank">
+            <Link
+              title="go to ashton's twitter page"
+              href={"https://twitter.com/AshtonDEngineer"}
+              target="_blank"
+            >
               <motion.li
                 whileHover={{
                   scale: 1.1,
@@ -90,7 +95,11 @@ const Contact = forwardRef(function Contact({ fadeOutStyle }, ref) {
                 />
               </motion.li>
             </Link>
-            <Link href={"https://github.com/Ashton-Bennett"} target="_blank">
+            <Link
+              title="go to ashton's git hub page"
+              href={"https://github.com/Ashton-Bennett"}
+              target="_blank"
+            >
               <motion.li
                 whileHover={{
                   scale: 1.1,
@@ -111,7 +120,11 @@ const Contact = forwardRef(function Contact({ fadeOutStyle }, ref) {
                 />
               </motion.li>
             </Link>
-            <Link href={"mailto:ashtonbennett801@gmail.com"} target="_blank">
+            <Link
+              title="email ashton"
+              href={"mailto:ashtonbennett801@gmail.com"}
+              target="_blank"
+            >
               <motion.li
                 whileHover={{
                   scale: 1.1,

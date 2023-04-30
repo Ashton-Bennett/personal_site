@@ -39,7 +39,11 @@ const Story = forwardRef(function Story({ fadeOutStyle }, ref) {
           family and friends.
         </motion.p>
         <div className="marginBottom">
-          <ScrollingArrow link={"#contact"} arrow={downArrow} />
+          <ScrollingArrow
+            title="go to next section"
+            link={"#contact"}
+            arrow={downArrow}
+          />
         </div>
       </motion.aside>
     </section>

@@ -22,7 +22,11 @@ export default function ProjectsPage() {
           <h1 className="addYMarginsDbl">Projects</h1>
           <ProjectCardAmpGuitar />
           <ProjectCardBlogs />
-          <Link className="row addYMarginsBig opacityHalf" href="/">
+          <Link
+            title="go to about section"
+            className="row addYMarginsBig opacityHalf"
+            href="/"
+          >
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}

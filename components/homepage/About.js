@@ -4,11 +4,15 @@ import ScrollingArrow from "./ScrollingArrow";
 import downArrow from "../../public/icons/south_FILL0_wght200_GRAD0_opsz48.png";
 import ParticleBackground from "../ParticleBackground";
 import { forwardRef } from "react";
+import { motion } from "framer-motion";
+import { textFade } from "./Projects";
+import Link from "next/link";
 
 const About = forwardRef(function About(props, ref) {
   return (
     <main ref={ref} id="about" className="column addHeight scrollSnap">
-      <aside
+      <title>Ashton Bennett's portfolio page</title>
+      <div
         id="mainSectionAside"
         className="column removeCenter textSectionLargeScreen"
       >
@@ -17,20 +21,33 @@ const About = forwardRef(function About(props, ref) {
         </h1>
         <p className="widthEighty fade-in-fwd">
           My name is Ashton Bennett. I&apos;m a front-end developer who loves
-          creating user-friendly and pixel perfect{" "}
+          creating user-friendly{" "}
           <span className="tanColor textShadow">web</span> applications.
-          Don&apos;t believe me? Take a look around.
         </p>
-        <div className=" row widthEighty spaceBetween fade-in-fwd">
-          <p></p>
-          <ScrollingArrow link={"#projects"} arrow={downArrow} />
+        <div className="row widthEighty fade-in-fwd ">
+          <Link href="#projects" title="go to projects section">
+            <motion.button
+              whileHover={{
+                scale: 1.1,
+                color: "whitesmoke",
+                cursor: "pointer",
+              }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+              className="widthEighty marginLeftNone"
+              variants={textFade}
+            >
+              My work
+            </motion.button>
+          </Link>
+          {/* <ScrollingArrow link={"#projects"} arrow={downArrow} /> */}
         </div>
-      </aside>
-      <div className="headshotWrapper relative fade-in-fwd-moreDelay">
-        <ParticleBackground windowWidth={props.windowWidth} />
+      </div>
+      <div className="headshotWrapper relative">
+        {/* <ParticleBackground windowWidth={props.windowWidth} /> */}
         <Image
           id="headshot"
-          className="imageStyle widthEighty absolute "
+          className="widthEighty absolute "
           priority
           src={headshot}
           blurDataURL={headshot}

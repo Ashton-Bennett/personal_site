@@ -13,7 +13,11 @@ export default function BlogDisplayCard({
   image,
 }) {
   return (
-    <Link className="column" href={`/blogs/${fileName}`}>
+    <Link
+      className="column"
+      href={`/blogs/${fileName}`}
+      title={`Go to ${fileName}`}
+    >
       <motion.div
         className=" column card"
         whileHover={{

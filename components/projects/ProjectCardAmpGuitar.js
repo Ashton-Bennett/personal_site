@@ -4,6 +4,7 @@ import ampGuitarImg from "../../public/images/amp_guitar_img.png";
 ("../../src/pages/projects/ampGuitarPage.js");
 import { motion } from "framer-motion";
 import LangIcons from "./LangIcons";
+
 export default function ProjectCardAmpGuitar() {
   return (
     <motion.div
@@ -16,7 +17,12 @@ export default function ProjectCardAmpGuitar() {
       whileTap={{ scale: 0.9 }}
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
     >
-      <Link className="column" href="/projects/ampGuitarPage" target="_blank">
+      <Link
+        title="go to next section"
+        className="column"
+        href="/projects/ampGuitarPage"
+        target="_blank"
+      >
         <Image
           className="cardImageStyle "
           priority

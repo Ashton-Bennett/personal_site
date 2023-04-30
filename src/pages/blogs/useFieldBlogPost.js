@@ -230,6 +230,7 @@ export default function UseFieldBlogPost() {
                 For more examples on different input values that can be passed
                 into useField() go to:
                 <Link
+                  title="go to mozilla website to learn more"
                   href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types"
                   target="_blank"
                   className="tanColor"
@@ -258,6 +259,7 @@ export default function UseFieldBlogPost() {
             I have shared a practice app, to see useField in action, that can be
             found on Github at:{" "}
             <Link
+              title="go to github"
               className="tanColor"
               href="https://github.com/Ashton-Bennett/test_apps/tree/usefield"
               target="_blank"
@@ -266,7 +268,11 @@ export default function UseFieldBlogPost() {
             </Link>{" "}
           </p>
           <div className="column">
-            <Link className="row addYMarginsBig opacityHalf" href="/blogsPage">
+            <Link
+              title="go back to blog listing page"
+              className="row addYMarginsBig opacityHalf"
+              href="/blogsPage"
+            >
               <Image
                 className="arrowIconStyle"
                 src={backArrowIcon}

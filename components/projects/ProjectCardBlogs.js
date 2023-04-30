@@ -6,7 +6,7 @@ import LangIconsForBlogs from "./LangIconsForBlogs";
 
 export default function ProjectCardBlogs() {
   return (
-    <Link href="/projects/blogAppPage">
+    <Link title="go to blog app website" href="/projects/blogAppPage">
       <motion.div
         className="column card"
         whileHover={{

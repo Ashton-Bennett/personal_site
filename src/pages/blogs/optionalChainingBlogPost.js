@@ -216,6 +216,7 @@ export default function OptionalChainingBlogPost() {
             application intact. Though, still new and not all browsers have
             adopted it,&nbsp;
             <Link
+              title="go to another site about optional chaining"
               className="tanColor"
               href="https://caniuse.com/?search=optional%20chaining"
               target="_blank"
@@ -224,7 +225,11 @@ export default function OptionalChainingBlogPost() {
             </Link>{" "}
             It&apos;s still worth checking out.
           </p>
-          <Link className="row addYMarginsBig opacityHalf" href="/blogsPage">
+          <Link
+            title="go back to blog listing page"
+            className="row addYMarginsBig opacityHalf"
+            href="/blogsPage"
+          >
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}

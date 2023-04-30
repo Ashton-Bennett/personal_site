@@ -19,7 +19,7 @@ export default function NavOnLargeScreen({
   }, [currentSection]);
 
   return (
-    <div className="showNav whiteColor">
+    <nav className="showNav whiteColor">
       <div className="tracking-in-expand-fwd">
         <a href="#about" onClick={handleClick}>
           <input
@@ -70,6 +70,6 @@ export default function NavOnLargeScreen({
           <label htmlFor="contactNav">Contact</label>{" "}
         </a>
       </div>
-    </div>
+    </nav>
   );
 }

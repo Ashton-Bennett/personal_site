@@ -124,6 +124,7 @@ export default function CSSGeneralSibling() {
             outcomes are different. I have created a code pen to play around
             with. You can find it&nbsp;
             <Link
+              title="go to codepen website"
               className="tanColor"
               href="https://codepen.io/Ashtonbennett801/pen/JjadKjg?editors=1100"
               target="_blank"
@@ -131,7 +132,11 @@ export default function CSSGeneralSibling() {
               here.
             </Link>{" "}
           </p>
-          <Link className="row addYMarginsBig opacityHalf" href="/blogsPage">
+          <Link
+            title="go back to blog page"
+            className="row addYMarginsBig opacityHalf"
+            href="/blogsPage"
+          >
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}

@@ -60,7 +60,11 @@ export default function BlogsPage() {
               image={callbackImage}
             />
           </div>
-          <Link className="row addYMarginsBig opacityHalf" href="/#about">
+          <Link
+            title="go to the about section"
+            className="row addYMarginsBig opacityHalf"
+            href="/#about"
+          >
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}

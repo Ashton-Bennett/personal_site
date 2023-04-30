@@ -18,6 +18,7 @@ export default function AmpGuitarPage() {
     <>
       <div id="blogStyle" className="blogsPage column">
         <Link
+          title="go to Amp Guitar web page"
           className="column"
           href="https://ashton-bennett.github.io/"
           target="_blank"
@@ -67,6 +68,7 @@ export default function AmpGuitarPage() {
             functional programming, it will bring hundreds of musical scale
             diagrams to the user. Give it a try&nbsp;
             <Link
+              title="go to github"
               href="https://ashton-bennett.github.io/"
               className="tanColor opacityHalf"
               target="_blank"
@@ -89,6 +91,7 @@ export default function AmpGuitarPage() {
         </section>
         <div className="column">
           <Link
+            title="go to github"
             className="column"
             href="https://github.com/Ashton-Bennett/ashton-bennett.github.io/tree/master"
             target="_blank"
@@ -102,7 +105,11 @@ export default function AmpGuitarPage() {
             />
           </Link>
 
-          <Link className="row addYMarginsBig opacityHalf" href="/projectsPage">
+          <Link
+            title="go back to project listing page"
+            className="row addYMarginsBig opacityHalf"
+            href="/projectsPage"
+          >
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}

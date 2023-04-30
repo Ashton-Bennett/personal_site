@@ -35,7 +35,7 @@ export default function Header({
   };
 
   return (
-    <nav>
+    <>
       <header id="header" className="row header spaceBetween ">
         {!displayNavMenu && (
           <>
@@ -43,6 +43,7 @@ export default function Header({
               href="/#about"
               className="row"
               onClick={() => handleLogoClick()}
+              title="go to about section"
             >
               <Image
                 priority
@@ -73,6 +74,7 @@ export default function Header({
               id="resumeLink"
               href="/assets/ashton.bennett.resume.pdf"
               target="_blank"
+              title="go to resume"
             >
               Résumé
             </a>
@@ -89,6 +91,6 @@ export default function Header({
         )}
       </header>{" "}
       <NavMenu toggleNavMenu={toggleNavMenu} displayNavMenu={displayNavMenu} />
-    </nav>
+    </>
   );
 }

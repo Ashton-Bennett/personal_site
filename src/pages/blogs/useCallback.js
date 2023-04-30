@@ -140,6 +140,7 @@ export default function UseFieldBlogPost() {
             <p>
               One of the keys to understanding the useCallback hook is{" "}
               <Link
+                title="go to another site detailing referential equality"
                 target="_blank"
                 className="tanColor opacityHalf"
                 href="https://dev.to/vicnovais/understanding-referential-equality-in-reacts-useeffect-2m7o"
@@ -211,6 +212,7 @@ export default function UseFieldBlogPost() {
             you are new to Javascript. I hope the simple example above will help
             anyone who is new to the hook. Here is a{" "}
             <Link
+              title="go react documentation on use callback"
               className="tanColor opacityHalf"
               href="https://react.dev/reference/react/useCallback"
               target="_blank"
@@ -223,7 +225,11 @@ export default function UseFieldBlogPost() {
           <br></br>
           <p></p>
           <div className="column">
-            <Link className="row addYMarginsBig opacityHalf" href="/blogsPage">
+            <Link
+              title="go back to blog listing page "
+              className="row addYMarginsBig opacityHalf"
+              href="/blogsPage"
+            >
               <Image
                 className="arrowIconStyle"
                 src={backArrowIcon}

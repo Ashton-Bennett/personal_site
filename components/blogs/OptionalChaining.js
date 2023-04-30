@@ -5,7 +5,11 @@ import hourGlassIcon from "../../public/icons/hour-glass.png";
 import { motion } from "framer-motion";
 export default function OptionalChaining() {
   return (
-    <Link className="column" href="/blogs/optionalChainingBlogPost">
+    <Link
+      className="column"
+      href="/blogs/optionalChainingBlogPost"
+      title="go to optional chaining blog post"
+    >
       <motion.div
         className=" column card"
         whileHover={{

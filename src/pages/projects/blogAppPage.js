@@ -18,6 +18,7 @@ export default function BlogAppPage() {
     <>
       <div id="blogStyle" className="blogsPage column">
         <Link
+          title="go to blog app website"
           className="column"
           href="https://blog-app-by-ashton.fly.dev/"
           target="_blank"
@@ -59,6 +60,7 @@ export default function BlogAppPage() {
             development and practice using Express, Node, React, Redux, and
             MongoDB.{" "}
             <Link
+              title="go to blog app website"
               href="https://blog-app-by-ashton.fly.dev/"
               className="tanColor opacityHalf"
               target="_blank"
@@ -75,6 +77,7 @@ export default function BlogAppPage() {
             that created that particular blog. If you would like to see the code
             click the link,&nbsp;
             <Link
+              title="go to github"
               href="https://github.com/Ashton-Bennett/blog_app"
               className="tanColor opacityHalf"
               target="_blank"
@@ -86,6 +89,7 @@ export default function BlogAppPage() {
         </section>
         <div className="column">
           <Link
+            title="go to git hub"
             className="column"
             href="https://github.com/Ashton-Bennett/blog_app"
             target="_blank"
@@ -99,7 +103,11 @@ export default function BlogAppPage() {
             />
           </Link>
 
-          <Link className="row addYMarginsBig opacityHalf" href="/projectsPage">
+          <Link
+            title="go back to project listing page"
+            className="row addYMarginsBig opacityHalf"
+            href="/projectsPage"
+          >
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}

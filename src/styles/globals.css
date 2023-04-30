@@ -32,7 +32,7 @@ body {
 body {
   color: #ebccc2;
   background-color: #2e2e2e;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 250;
   letter-spacing: 0.1px;
 }
@@ -76,7 +76,7 @@ h4 {
 }
 
 button {
-  margin: 2em;
+  margin-top: 2em;
   margin-bottom: 1em;
   border: none;
   background-color: #ebccc2;
@@ -996,7 +996,7 @@ a > label:target-within {
 
   p {
     font-size: 1.85rem;
-    line-height: 1.1;
+    line-height: 1.5;
   }
 
   .widthEighty {

@@ -59,6 +59,7 @@ const Projects = forwardRef(function Projects(
           interested in working with me, don&apos;t hesitate to reach out.
         </motion.p>
         <Link
+          title="go to projects page"
           href="/projectsPage"
           onClick={() => setDisplayHamburgerNav(false)}
           scroll={false}
@@ -77,7 +78,11 @@ const Projects = forwardRef(function Projects(
             View
           </motion.button>
         </Link>
-        <ScrollingArrow link={"#blogs"} arrow={downArrow} />
+        <ScrollingArrow
+          title="go to next section"
+          link={"#blogs"}
+          arrow={downArrow}
+        />
       </motion.aside>
     </section>
   );

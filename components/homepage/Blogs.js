@@ -39,7 +39,11 @@ const Blogs = forwardRef(function Blogs(
           others. That&apos;s why I maintain a section on technical blogs, where
           I write about web development.
         </motion.p>
-        <Link href="/blogsPage" onClick={() => setDisplayHamburgerNav(false)}>
+        <Link
+          href="/blogsPage"
+          title="go to blog page"
+          onClick={() => setDisplayHamburgerNav(false)}
+        >
           <motion.button
             whileHover={{
               scale: 1.1,
@@ -54,7 +58,11 @@ const Blogs = forwardRef(function Blogs(
             View
           </motion.button>
         </Link>
-        <ScrollingArrow link={"#story"} arrow={downArrow} />
+        <ScrollingArrow
+          title="go to next section"
+          link={"#story"}
+          arrow={downArrow}
+        />
       </motion.aside>
     </section>
   );

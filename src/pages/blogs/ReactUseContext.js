@@ -155,6 +155,7 @@ export default function ReactUseContext() {
           <p>
             Check out the full code on&nbsp;
             <Link
+              title="go to github"
               className="tanColor"
               href="https://github.com/Ashton-Bennett/test_apps/tree/context_practice"
               target="_blank"
@@ -162,7 +163,11 @@ export default function ReactUseContext() {
               Github
             </Link>{" "}
           </p>
-          <Link className="row addYMarginsBig opacityHalf" href="/blogsPage">
+          <Link
+            title="go back to blog listing page"
+            className="row addYMarginsBig opacityHalf"
+            href="/blogsPage"
+          >
             <Image
               className="arrowIconStyle"
               src={backArrowIcon}
