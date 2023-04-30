@@ -11,7 +11,7 @@ import Link from "next/link";
 const About = forwardRef(function About(props, ref) {
   return (
     <main ref={ref} id="about" className="column addHeight scrollSnap">
-      <title>Ashton Bennett's portfolio page</title>
+      <title>Ashton Bennett&#39;s portfolio page</title>
       <div
         id="mainSectionAside"
         className="column removeCenter textSectionLargeScreen"
