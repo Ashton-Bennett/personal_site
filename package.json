@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/font": "^13.1.6",
+    "@vercel/analytics": "^1.0.0",
     "animate.css": "^4.1.1",
     "debounce": "^1.2.1",
     "eslint": "8.34.0",
