@@ -44,7 +44,7 @@ const About = forwardRef(function About(props, ref) {
         </div>
       </div>
       <div className="headshotWrapper relative">
-        {/* <ParticleBackground windowWidth={props.windowWidth} /> */}
+        <ParticleBackground windowWidth={props.windowWidth} />
         <Image
           id="headshot"
           className="widthEighty absolute "
